@@ -4,6 +4,3 @@ version = "0.1.0"
 
 [lib]
 crate-type = ["dylib"]
-
-[dependencies]
-shared = { path = "../shared" }
