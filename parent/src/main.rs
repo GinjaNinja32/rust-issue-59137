@@ -1,3 +1,9 @@
+extern crate libloading;
 extern crate shared;
 
-fn main() {}
+use libloading::{Library, Symbol};
+
+fn main() {
+    let lib = Library::new("libchild.so").unwrap();
+    println!("lib: {:?}", lib);
+}
