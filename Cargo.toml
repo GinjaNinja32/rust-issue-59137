@@ -1,5 +1,2 @@
 [workspace]
-members = ["parent", "child", "shared"]
-
-[profile.release]
-lto = true
+members = ["parent", "child"]

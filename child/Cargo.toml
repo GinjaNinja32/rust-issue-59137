@@ -4,3 +4,7 @@ version = "0.1.0"
 
 [lib]
 crate-type = ["dylib"]
+
+[dependencies]
+parent = { path = "../parent" }
+nom = "4.2.3"
